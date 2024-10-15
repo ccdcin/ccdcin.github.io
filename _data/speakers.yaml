@@ -1,62 +1,363 @@
-- name: Aditi Rajeev
-  id: aditi
-  pic: aditi.jpg
-  social:
-    twitter: aditi
-    instagram: eternallynauseated
-    link: https://www.aditiportfolio.com/
+- name: Dr Ashlesha Bagadia
+  id: ashlesha
+  pic: ashlesha.jpg
   bio: >-
-    Aditi is a film maker and artist who has been working with various artist 
-    groups and collectives, 
+    Dr Ashlesha Bagadia is a Perinatal Psychiatrist and Psychotherapist with
+    over 24 years of clinical experience. After completing her medical training
+    in India, she spent over a decade overseas, completing advanced training in
+    the UK, Australia and Canada. These covered internationally accredited
+    specialist training in Psychodynamic Psychotherapy, Systemic Family Therapy,
+    Mentalisation Based Treatment and a Fellowship in Perinatal Psychiatry &
+    Women's Mental Health. 
 
-    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod     tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At     vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,     no sea takimata sanctus est Lorem ipsum dolor sit amet.
-    
+    Dr Ashlesha moved to India 9 years ago and is now based at The Green Oak Initiative. She leads "Chiguru-thrive to 5", one of our flagship mental health services focusing on mental health care in pregnancy, post-partum and parent child bonding upto school age. She also heads our psychotherapy services and runs MBT - group therapy program for borderline personality disorder and collaborates with other clinicians to help manage similar conditions. She offers Systemic Family Therapy through our complex needs clinic which is available for low fee patients as well.
 
-- name: Arun Kumar
-  id: arun
-  pic: arun.jpg
-  social:
-    twitter: arunk
-    github: arunk
-    instagram: deleuzonal
-  bio: >-
-    Arun is an artist and game designer who was trained in technology.  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod     tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At     vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,     no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod     tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At     vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,     no sea takimata sanctus est Lorem ipsum dolor sit amet.
-    
-
-- name: Maitri
+    She is the director and co-founder of The Parc, our training partner, through which she conducts workshops and training courses on various therapeutic skills for counsellors, psychologists, social workers, psychiatrists and mental health clinicians from any background. She was recently elected as the President of SAMA- South Asian Marcé Association, which is a regional chapter of the International Marcé Society for Perinatal Mental Health.
+- name: Ayush Gupta (Ayesha)
+  id: ayesha
+  pic: ayesha.jpg
+  bio: "Ayush Gupta (Ayesha) is Associate Professor at the Homi Bhabha Center for
+    Science Education, Tata Institute of Fundamental Research, Mumbai,
+    Maharashtra, India. Before this, they were Associate Research Professor
+    (Physics), and Keystone Instructor (Engineering) at the University of
+    Maryland, College Park, USA. They did their Bachelors in Technology (Hons.)
+    from Indian Institute of Technology, Kharagpur, India and Ph.D. in
+    Electrical Engineering from University of Maryland, College Park, MD, USA.
+    While their dissertation research was on computational and analytical
+    modelling of laser-matter interactions, they shifted to education research
+    for post-doctoral work and afterwards. Their work involves designing science
+    and engineering learning environments coupled with research on the
+    cognitive, emotional, and social dynamics of learning, and cultural aspects
+    of science and technology that reproduce marginalisation and inequities.
+    They have published ~70 papers in leading international peer reviewed
+    journals and conference proceedings in education research. Her most recent
+    work is on queering science education, and on how technology education can
+    serve grassroots transgender communities and movements. They serve on the
+    editorial board for the International Journal of Engineering, Social
+    Justice, and Peace. They have trained in Theatre of the Oppressed with
+    Center for Community Dialogue and Change (CCDC). Still early in their
+    practice, they are especially interested in exploring how TO can help us
+    stretch our imaginations on social issues, especially on the question of
+    gender. In collaboration with CCDC, they have designed & facilitated Theatre
+    of the Oppressed workshops for teachers and for grassroots transgender
+    communities. "
+- name: Basavaraju Soliga
+  id: soliga
+  pic: soliga.png
+  bio: Soligas are an indigenous tribe of Karnataka, inhabiting the peripheral
+    forest areas near Biligiri Rangana Hills and Male Mahadeshwara in
+    Chamarajnagar district. Traditionally they have been dependent on the
+    forests for their livelihood. The Soligas are also called the children of
+    bamboo because the word is believed to mean that they originated from
+    bamboo.
+- name: Benson Issac
+  id: benson
+  pic: benson.png
+  bio: "Benson came to Samvada as a student in 1994  when he was studying
+    sociology at St. Joseph’s College of Arts and Science. He trained in urban
+    and rural community development from the Tata Institute of Social Sciences
+    and has been working in the development sector for over 20 years now. During
+    this period, he has been associated with child rights issues,
+    anti-communalism initiatives, worked for Greenpeace as a climate change
+    campaigner and also worked as Faculty of Social Work at St. Joseph’s
+    College. Through his involvement with Samvada, he has done extensive work in
+    sensitising and mobilising youth around social change, trained youth in
+    alternative livelihoods and contributed to developing the body of knowledge
+    around youth studies. "
+- name: Dr Aqsa Shaikh
+  id: aqsa
+  pic: aqsa.png
+  bio: Dr Aqsa Shaikh is a medical doctor and Community Medicine Specialist. She
+    is an Associate Professor of Community Medicine at HIMSR, Jamia Hamdard,
+    Delhi. She is India’s first and only Transgender woman to head a Covid
+    Vaccination center and be an investigator in Covid Vaccine Clinical trials
+    of Sputnik Vaccine. She has also been a part of WHO Research on Epidemiology
+    of Covid-19 Transmission amongst healthcare workers. She is working with
+    Sangath, on TransCare Covid-19 Project to study the access to healthcare by
+    Transgender Community in Pandemic. She is also a part of University of
+    Chicago funded project on reforming Medical Education to make it
+    Trans-affirmative. Dr. Shaikh is an investigator in VaccinEquity Project by
+    Sabin Vaccine Institute to study the access to Covid-19 Vaccination by the
+    Transgender Community. Born and brought up in Mumbai, she completed her
+    education from Seth GS Medical College. She is a Proud Transgender Woman and
+    works on LGBTQIA+ rights, Rights of Persons with Disability, and Mental
+    Health. She has a keen interest in Medical Ethics, Medical Humanities, and
+    Medical Education Technology and is a Fellow of Advanced Course in Medical
+    Education. She also serves as Section Editor of PLOS Global Public Health
+    and is a reviewer with Research in Humanities in Medical Education.
+- name: Geet
+  id: geet
+  pic: geet.png
+  bio: Geet is an artist and facilitator whose practice includes using various art
+    forms to create spaces where young people can freely express themselves
+    without needing to conform to societal norms. They are trained in
+    storytelling, Playback theatre and Theatre of the Oppressed. Their practice
+    uses creative processes to understand the impact of political and social
+    structures in the everyday lives of young people. Geet facilitates arts
+    based community projects for young people with grassroots organisations in
+    Bangalore. They also work with the Queer community to facilitate the
+    understanding of safe space for individuals in the community using arts.
+    Geet is keen to explore ways in which people from marginalised backgrounds
+    can make themselves heard and tell their own stories. Geet is also a
+    Chartered Accountant.
+- name: Dr Harshawardhan Shrotri
+  id: harshu
+  pic: harshu.png
+  bio: Harshu, as he is popularly known, has been active as a writer, director and
+    actor in theatre and films over the past few years. He trained in ‘Theatre
+    of the Oppressed’ (TO) and started facilitating workshops since 2018. He has
+    been effectively using TO with groups of corporates, social workers, rural
+    and urban students, health professionals, medical teachers, patients, and
+    theatre artists, facilitating them to find a way out of their conflicts. He
+    seeks great pleasure in learning from the participants, who come from
+    various walks of life. Perhaps, being a medical practitioner himself
+    (Interventional Radiologist), he finds true satisfaction in offering TO as a
+    ‘therapeutic’ self-help tool, in an ‘out of hospital’ set-up.
+- name: Dr Maitri Gopalakrishna
   id: maitri
   pic: maitri.png
-  social:
-    instagram: my3dramatherapy
-  bio: >-
-    This is maitri's bio Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod     tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At     vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,     no sea takimata sanctus est Lorem ipsum dolor sit amet.
-    
-    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod     tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At     vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,     no sea takimata sanctus est Lorem ipsum dolor sit amet.
-    
-- name: Paolo Friere
-  id: paolo
-  pic: generic-profile.png
-  bio: >-
-    Paolo was an educator and the author of the book Pedagogy of the Oppressed. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  bio: "Dr Maitri Gopalakrishna is a drama therapist, counselling psychologist,
+    theatre maker and researcher. She has a PhD from the Tata Institute of
+    Social Sciences (Mumbai) and an MA in Counselling Psychology with a
+    concentration in Drama Therapy from the California Institute of Integral
+    Studies (San Francisco). Maitri works in community building, preventative
+    care, mental health support, psychotherapy, and training in a variety of
+    institutional and community contexts. She has experience working with issues
+    of gender, sexual trauma, and childhood sexual abuse. Maitri’s recent areas
+    of practice-research include drama as an intervention for sexual trauma,
+    therapeutic theatre, and drawing on theories and practices from the
+    Natyashastra in therapeutic work. Maitri has been working with Parivarthan
+    Counseling, Training and Research Centre since 2009.
 
-    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod     tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At     vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,     no sea takimata sanctus est Lorem ipsum dolor sit amet.
-    
+
+- name: A Mangai
+  id: mangai
+  pic: mangai.png
+  bio: "A. Mangai is the pseudonym of Dr. V. Padma. She retired as Associate
+    Professor in English from Stella Maris College, Chennai. She has been
+    actively engaged in Tamil theatre as an actor, Director and Playwright for
+    almost three decades. She hopes that her academic, activist and artistic
+    selves can find a vibrant intersection. Her fields of interest are theatre,
+    gender and translation studies. Her passion is to concentrate on community
+    theatre – to make theatre the voice of the voiceless, or the
+    marginalized.  She has directed over thirty -five plays so far. All of them
+    deal with women –centered themes and characters. Her book Acting Up&#58;
+    Gender and Theatre in India 1979 Onwards has been published by Left Word,
+    New Delhi.
+
+
+- name: Dr Navjeevan Singh
+  id: navjeevan
+  pic: navjeevan.png
+  bio: "Leading a retired life keeps one busy. The day shrinks to accommodate
+    whatever needs to be done; and, in any case, there is nothing that cannot be
+    put off until tomorrow. Management professionals have long sold me a useful
+    dictum to live by- “study a problem long enough, and the problem tends to
+    disappear”; however, some things defy procrastination. They just have to be
+    done. So, besides trying to teach spoken English to a motley dozen children
+    of vegetable vendors of my locality, and failing miserably, when I get the
+    occasional opportunity to foray into a world I once knew&#58; the world of
+    TO and the Health Humanities, I take a break. This trip to Bangalore is one
+    such occasion. I look forward to having a rollicking time.
+
+  
+- name: Nisha Abdulla
+  id: nisha
+  pic: nisha.png
+  bio: "Nisha Abdulla is a Bangalore based theatremaker practicing as playwright,
+    performer, director, dramaturg, & educator. Her anti-oppressive arts
+    practice places care, curiosity, and community at the core of the creation
+    process. She is deeply invested in exploring the interplay of
+    identity-belonging-power-gaze in the contemporary socio-political context.\ 
+
+    Nisha has been the recipient of Voices from the South  Grant by
+    Edinburgh Festival Fringe, 100Artist Grant by Sud kulture, and
+    Artist-in-Residence at Schauburg Theatre for Youth Munich + Vila Waldberta
+    in 2019. She is the Artistic Director of Qabila, where her work centers new
+    writing and the dissenting imagination, and the co-founder of OffStream, an
+    artist collective  that makes and enables creative projects around
+    anti-caste advocacy. She also teaches at universities, schools, and
+    community spaces.
+
+  
+- name: Noor Sengupta
+  id: noor
+  pic: noor.png
+  bio: "Noor Senguptas bio."
+- name: Piramal Foundation
+  id: piramal
+  pic: generic-image.png
+  bio: "Piramal bio."
+- name: Dr Radha Ramaswamy
+  id: radha
+  pic: radha.png
+  bio: "Dr Radha Ramaswamy founded The Centre for Community Dialogue and Change in
+    2011. In a working life of 40 years, she has been an English teacher,
+    theatre researcher, dramaturg, an educational consultant to NGOs, and
+    finally, a Theatre of the Oppressed practitioner and trainer. Her experience
+    in education, interest in theatre and passion for social justice work came
+    together when she decided to train herself in Augusto Boal’s Theatre of the
+    Oppressed, a tool for community education. Radha trained with Marc Weinblatt
+    at the Mandala Center for Change in June 2010. Subsequently, she¬¬ invited
+    him to conduct workshops in India in January-February 2011, and shortly
+    thereafter, launched the Centre for Community Dialogue and Change, an
+    organization committed to the promotion of Theatre of the Oppressed in
+    education. Since founding CCDC, Radha has worked with diverse communities of
+    people such as students, educators, women’s groups, activists, senior
+    citizens, medical students, medical teachers and others.
+
+- name: Ravi Ramaswamy
+  id: ravi
+  pic: ravi.png
+  bio: "Ravi Ramaswamy (they/them) identifies as queer and has experience working
+    with diverse communities. Using a deep understanding of issues such as urban
+    poverty, education, child and youth rights, gender and sexuality, they have
+    worked with the LGBTQIA+ community, inmates of the Bangalore Central Jail,
+    farmer groups and youth from different strata of society. Ravi was trained
+    in Theatre of the Oppressed (TO) by Marc Weinblatt of the Mandala Center for
+    Change, Seattle, Washington. Ravi is a trustee at CCDC and has led Theatre
+    of the Oppressed workshops across India since 2011. The core areas of Ravi’s
+    work are the use of TO for Community Education, Medical Humanities and
+    Mental Health. Since 2014, Ravi has led workshops in Medical Humanities for
+    medical faculty and students in various cities across India like Bangalore,
+    Kolar, Mysore, Manipal, Mangalore, Mumbai, Bhopal, Jodhpur, Alappuzha,
+    Sevagram, Wardha, Amritsar and Tezpur. In September 2019, Ravi also
+    co-authored a chapter on the use of TO in Medical Education in the Routledge
+    Handbook of the Medical Humanities.
+
 - name: A Revathi
   id: revathi
-  pic: generic-profile.png
-  bio: >-
-    Revathi is a staunch ally to trans people all over India, her activism has brought visibility. 
-    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod     tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At     vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,     no sea takimata sanctus est Lorem ipsum dolor sit amet.
-    
-    
-    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod     tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At     vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,     no sea takimata sanctus est Lorem ipsum dolor sit amet.
-    
-- name: Namrata
-  id: namrata
-  pic: generic-profile.png
-  bio: >-
-    Namrata is a legal research scholar who has dedicated her life to Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  pic: revathi.png
+  bio: "A Revathi is a Bangalore-based writer and activist working for LGBT rights
+    in India. She is a trans woman and member of the Hijra community. She has
+    authored three books&#58; Our Lives Our Words (Tamil, Hindi and English),
+    The Truth About Me (Penguin, Tamil - Vellai Mozhi, Adayalam Publication),
+    Baduku Bayalu (Kannada, Telugu, English), and A Life in Trans Activism
+    (Zubaan Books - English). She has worked in crisis intervention, community
+    mobilization, training, capacity building, organizing, advocacy, alliances
+    with Adivasi and Dalit women's movements, and has published many articles on
+    minority struggles. She has worked extensively in Tamil Nadu, Andhra
+    Pradesh, Karnataka, Kerala.  Revathi has performed her solo act \"Vellai
+    Mozhi,\" a stage play directed by A. Mangai, at 108 locations across Tamil
+    Nadu, Kerala, Karnataka, Rajasthan, Nepal, and the USA.
 
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+- name: Dr Satendra Singh
+  id: satendra
+  pic: satendra.png
+  bio: Dr Satendra Singh co-founded the Health Humanities Group with Navjeevan and
+    Upreet at UCMS in 2009. He was instrumental in organizing the first-ever
+    Theatre of the Oppressed (TO) workshop for medical students globally, held
+    in collaboration with CCDC on 23-24 August 2011 at UCMS. In 2014, he
+    formally became a facilitator of the TO method (BJ) and has since conducted
+    numerous workshops across India. Many of his disability advocacy initiatives
+    have utilized ’invisible theatre’ as a core element, and his leadership in
+    advancing the health humanities movement in India ultimately led to the
+    inclusion of ’Forum Theatre’ as a teaching-learning modality for disability
+    competencies in the new medical curriculum in India. Academically, Dr.
+    Satendra Singh is a Director and Professor of Physiology at the University
+    College of Medical Sciences & GTB Hospital, Delhi. He is the Co-chair of the
+    International Council for Disability Inclusion in Medical Education and a
+    member of the core group on disability at the National Human Rights
+    Commission. A passionate disability justice advocate, Dr. Singh has played a
+    pivotal role in policy reforms, including the incorporation of disability
+    rights in the new MBBS curriculum in India. He is also a dedicated ally of
+    transgender and intersex rights.
+- name: Samuel Moses
+  id: sam
+  pic: sam.png
+  bio: Hello everybody! I’m Sam and I’m from Bangalore. I’m currently working as
+    an assistant football coach and as an inventory manager. I’m also a
+    professional athlete, and I have run multiple marathons across the calendar-
+    5k,10k,15k, 25k and 30k too. My dream is to become a football coach and an
+    athletics coach. Later this coming year, I will be competing for 50km and
+    100km.  I was pursuing my B.A in Psychology but had to quit due to some
+    urgent, personal issues.  Speaking about my background, I’m an orphan and I
+    have had no parents since the day I was born. One of my aunts rescued me
+    from the road side and raised me. Her name is Buelah John. She and her
+    husband John, and their two sons, took care of me, just like the way they
+    took care of their own sons. I grew up in their home. I had to move to an
+    NGO when I was 13. I did my 10th and PUC, and moved out again from there. It
+    was then I started living at WeLive foundation for a year and a half. Yeah,
+    I’ve had a tough life, not at all an easy life. I go through battles
+    everyday. And tears. Not at all easy to live the life of Sam. But still,
+    with a smile on my face, I do my work.
+- name: Ramya Sundarajan
+  id: ramya
+  pic: ramya.png
+  bio: Ramya Sundarajan is the Chief Executive Officer at WeLive foundation and
+    has been a part of the team from the program inception stage. Her
+    association with WeLive has been extremely meaningful with her working as
+    head of programs for 2 years before assuming her current role. She is a
+    certified english language trainer who is associated with the Azim Premji
+    University as part-time faculty for their english language support centre.
+    With a postgraduate degree in management, Ramya is a professional
+    storyteller who takes great joy in her interactions with children and young
+    people. Her capacity to put in the work to make dreams a reality combined
+    with her fierce commitment to the cause makes her a valuable resource for
+    WeLive.
+- name: Manikandan Pari
+  id: manikandan
+  pic: manikandan.png
+  bio: Manikanda bio.
+- name: Dr Padmavati R
+  id: padmavati
+  pic: padmavati.png
+  bio: Dr R Padmavati currently holds the position of Director at Schizophrenia
+    Research Foundation, (SCARF, India). She completed her Postgraduate
+    Psychiatry degree at the University of Bombay, India and since then has been
+    with SCARF for over 28 years. She has been involved in several research
+    areas like epidemiological studies, drug trials, untreated schizophrenia,
+    culture and psychoses, metabolic disorders in mental illness. She has been
+    closely involved in SCARF’s community mental health programs and the
+    telepsychiatry project. Her key interests have been in socio-cultural
+    aspects of Mental illnesses. She has a keen interest in psychosocial
+    rehabilitation. She has extensively published and is a reviewer of many
+    national and international psychiatric journals. She teaches postgraduate
+    students of Psychiatry and guides postgraduate dissertations.
+- name: Timira Gupta
+  id: timira
+  pic: timira.png
+  bio: Timira Gupta is a trained Arts-Based Therapy practitioner and uses
+    different artistic forms like drama, story-telling, visual art and circus
+    arts to work with children from different backgrounds. She is currently the
+    Executive Director of an ICSE school in Mumbai. While Timira’s heart is
+    immersed in the lives of children, her secret desire is to leave everything
+    and join a circus!
+- name: Shahid Shaikh
+  id: shahid
+  pic: shahid.png
+  bio: "Shahid is a founding member of Aagaaz Theatre Trust and is a part of its
+    Core Group of theatre practitioners. He has been performing professionally
+    since 2015. As an actor and co-facilitator, he has been a part of plays that
+    have performed in theatre festivals, school, public performance venues,
+    public spaces, and many national level events. Always a smile on his face
+    and willing to listen, he is also one to speak his mind, even if that means
+    challenging voices of authority in any space. Over the years we have seen
+    Shahid pause every once in a while to reflect on who he is and where he is
+    headed. He is never afraid to face his faults and always ready to embrace
+    aspects of himself. He is intelligent and hardworking as a performer and
+    always willing to go back to the drawing board.
+
+- name: Naghma Khatoon
+  id: naghma
+  pic: naghma.png
+  bio: "Nagma is one of the younger powerhouses in the Aagaaz group. She has been
+    with Aagaaz since 2011 and loves singing, dancing, embroidery and of course-
+    theatre. She expresses that theatre offers her a new world, that has a set
+    of rules that are different from those in real life. This allows her to do
+    the things she would otherwise not be able to do. She is pursuing her
+    graduation from IGNOU and simultaneously trying to delve deep into
+    facilitation, since she values the give and take relationship it creates.
+
+- name: Arvind Narrain
+  id: arvind
+  pic: arvind.png
+  bio: >-
+    Arvind Narrain has been involved with research, writing and practice
+    related to law and social concerns. He has done a bachelor’s in law from the
+    National Law School of India University(NLSIU) followed by a masters in the
+    University of Warwick on a Chevening scholarship. He is currently in the
+    process of doing his PhD on ‘Mapping the elements of an Ambedkarite
+    jurisprudence’ at the NLSIU.
+
+    He is the author of India’s Undeclared Emergency&#58; Constitutionalism and the Politics of Resistance and the co-editor of Law Like Love&#58; Queer perspectives on law as well as the Co-author of Breathing Life into the Constitution. He was the founding member of the Alternative Law Forum www.altlawforum.org He was also a part of the team of lawyers challenging Section 377 of the IPC right from the High Court in 2009 to the Supreme Court in 2018.
