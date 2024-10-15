@@ -1,0 +1,200 @@
+- id: 1
+  date: December 13th
+  title: Let's Play&#58; An Introduction to Theatre of the Oppressed
+  events:
+    - title: Let’s Play&#58; An Introduction to TO
+      timings: 10am - 1pm
+      speakers:
+        - ashima
+      description: >-
+        Games & Image Theatre. 
+
+    - title: Lunch
+      timings: 1pm - 2pm
+        
+    - title: Introduction to TO
+      timings: 2pm - 4pm
+      speakers:
+        - radha
+      description: >-
+        Forum Theatre. 
+
+    - title: Coffee Break
+      timings: 4pm - 4:30pm
+      
+    - title: Performance&#58; Naan Oru Pen
+      timings: 6pm - 7pm
+      speakers:
+        - sowmya
+      description: >-
+       Naan Oru Pen is based on Maya Angelou's Phenomenal Woman and Still I Rise - performed by Sowmya, a trans artist with over 15 years of theatre experience.
+
+    - title: Dinner
+      timings: 7:30pm - 8:30pm
+      
+- id: 2
+  date: December 14th
+  title:
+  events:
+    - title: Welcome and Introduction to the Conference
+      timings: 9:00am - 9:30am
+      speakers:
+        - radha
+        - ravi
+      description: >-
+        Welcome address by Radha and Ravi Ramaswamy. 
+
+    - title: Keynote Discussion
+      timings: 9:30am - 10:30am
+      speakers:
+        - nisha
+        - arvind
+      description: >-
+        Keynote discussion with Nisha Abdulla and Arvind Narrain. 
+
+    - title: Break
+      timings: 10:30am - 11:00am
+
+    - title: Panel&#58; Radical Play&#58; TO with Children and Young People
+      timings: 11:00am - 1:00pm
+      speakers:
+        - timira
+        - ramya
+        - sam
+        - ravi
+        - geet
+        - noor
+        - shahid
+        - naghma
+      description: >-
+        Session moderated by Timira. 
+        
+    - title: Lunch
+      timings: 1:00pm - 2:00pm
+
+    - title: Panel&#58; Performing Gender
+      timings: 2:00pm - 4:00pm
+      speakers:
+        - revathi
+        - mangai
+        - aqsa
+        - geet
+        - ayesha
+        
+      description: >-
+        Session begins with Vellai Mozhi, a performance by A Revathi. Panel discussion follows. Session moderated by Ayesha. 
+
+    - title: Break
+      timings: 4:00pm - 4:30pm
+
+    - title: Panel&#58; Performing Gender
+      timings: 4:30pm - 5:30pm
+      speakers:
+        - revathi
+        - mangai
+        - aqsa
+        - geet
+        - ayesha
+        
+      description: >-
+        Session continues. 
+
+    - title: Break
+      timings: 5:30pm - 6:00pm
+      
+    - title: wepushthesky
+      timings: 6:00pm - 7:30pm
+      speakers:
+        - nisha
+        
+      description: >-
+        Performance by Nisha Abdulla. 
+        
+    - title: Dinner
+      timings: 7:30pm - 8:30pm
+      
+- id: 3
+  date: December 15th
+  title:
+  events:
+    - title: Panel&#58; The Practice of Healing&#58; The Arts and Humanities in Health
+      timings: 9:30am - 10:30am
+      speakers:
+        - navjeevan
+        - harshu
+        - radha
+        - ashlesha
+        - satendra
+        - aqsa
+        - maitri
+        - padmavati
+        
+      description: >-
+        Session moderated by Navjeevan Singh. 
+
+  
+    - title: Break
+      timings: 10:30am - 11:00am
+        
+
+    - title: Panel&#58; The Practice of Healing&#58; The Arts and Humanities in Health
+      timings: 11:00am - 1:00pm
+      speakers:
+        - navjeevan
+        - harshu
+        - radha
+        - ashlesha
+        - satendra
+        - aqsa
+        - maitri
+        - padmavati
+        
+      description: >-
+        Session continues. 
+        
+    - title: Lunch
+      timings: 1:00pm - 2:00pm
+
+    - title: Panel&#58; Jokering Change&#58; TO for Our Times
+      timings: 2:00pm - 4:00pm
+      speakers:
+        - timira
+        - manikandan
+        - ashima
+        - radha
+        - ravi
+        - piramal
+        
+      description: >-
+        Session facilitated by Benson Issac.
+
+    - title: Break
+      timings: 4:00pm - 4:30pm
+      
+    - title: Panel&#58; Jokering Change&#58; TO for Our Times
+      timings: 4:30pm - 5:30pm
+      speakers:
+        - timira
+        - manikandan
+        - ashima
+        - radha
+        - ravi
+        - piramal
+        
+      description: >-
+        Session facilitated by Benson Issac.
+
+    - title: Break
+      timings: 5:30pm - 6:30pm
+     
+    - title: Soliga performance
+      timings: 6:00pm - 7:30pm
+      speakers:
+        - basavaraju
+        
+      description: >-
+        Performance by Soliga community from BR Hills, Karnataka. 
+        
+    - title: Dinner
+      timings: 7:30pm - 8:30pm
+

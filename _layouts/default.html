@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+    <script type="text/javascript">
+        function formatDebugMessage(tag, msg, previousContent) {
+            return `${previousContent}\n${tag}\n${msg}`;
+        }
+        function jekyllDebug(tag, msg) {
+            console.log(tag);
+            const obj = JSON.parse(decodeURIComponent(msg));
+            const prettyPrint = JSON.stringify(obj, null, 4);
+            console.log(obj);
+            if (document.readyState == "complete") {
+                const content = document.getElementById("jekyll-debug").textContent;
+                document.getElementById("jekyll-debug").textContent = formatDebugMessage(tag, prettyPrint, content);
+            } else {
+                window.addEventListener("load", function() {
+                    const content = document.getElementById("jekyll-debug").textContent;
+                    document.getElementById("jekyll-debug").textContent = formatDebugMessage(tag, prettyPrint, content);
+                }, false);
+            }
+        }
+        //https://stackoverflow.com/questions/6676186/use-onchange-in-a-div - code from here
+        document.addEventListener("DOMContentLoaded", function () {
+            const debugEl = document.getElementById('jekyll-debug');
+            const debugToggle = document.getElementById('debug-toggle');
+            function mutationCallback(mutationsList, observer) {
+                //console.log(mutationsList);
+                //console.log(observer);
+                for (const mutation of mutationsList) {
+                    if (mutation.type == 'childList') {
+                        console.log("A child node has been added or removed");
+                        if (debugToggle.classList.contains("hide")) {
+                            debugToggle.classList.toggle("hide"); 
+                        }
+                    } else if (mutation.type == 'attributes') {
+                        console.log(`The attribute ${mutation.attributeName} was changed`);
+                    } else {
+                        console.log(`mutation type: ${mutation.type}`);
+                        console.log(`New value: ${JSON.stringify(mutation.target.data)}`);
+                    }
+                }
+            };
+            const mutationObserver = new MutationObserver(mutationCallback);
+            const mutationConfig = { attributes: true, childList: true, subtree: true, characterData: true };
+            mutationObserver.observe(debugEl, mutationConfig);
+        })
+    </script>
+  {%- include head.html -%}
+
+  <body class="bg-gray">
+
+    {%- include header.html -%}
+
+    <div class="py-5">
+      <div class="container-fluid page-content">
+          {{ content }}
+      </div>
+    </div>
+
+    {%- include footer.html -%}
+    {% if page.url == "/speakers/" %}
+    <div class="container-fluid sticky-bottom">
+        <div class="row">
+            <div class="offset-md-10 col-md-2">
+                <a class="float-end d-flex-column back-to-top-link" href="#speakers-grid">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="mx-4 bi bi-arrow-up-square-fill" viewBox="0 0 16 16">
+                          <path d="M2 16a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2zm6.5-4.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 1 0"/>
+                        </svg>
+                        <!--<p>Back to the top</p> -->
+                </a>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+    <div id="debug-console" class="modal">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title fs-5">Debug Panel</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <pre id="jekyll-debug">
+                    </pre>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        (function() {
+            const logo = document.getElementById("logo-nav");
+            const register = document.getElementById("register-nav");
+            if (document.location.pathname == '/speakers/') {
+                logo.classList.remove("d-none");
+                register.classList.remove("d-none");
+            } else {
+                window.addEventListener('scroll', (evt) => {
+                    const scroll = document.documentElement.scrollTop || document.body.scrollTop;
+                    console.log(scroll);
+                    if (scroll > 830) {
+                        logo.classList.remove("d-none");
+                        register.classList.remove("d-none");
+                    } else {
+                        logo.classList.add("d-none");
+                        register.classList.add("d-none");
+                    }
+                });
+            }
+        })();
+    </script>
+  </body>
+
+</html>
