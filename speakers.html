@@ -46,7 +46,7 @@ permalink: speakers/
             <h2 id="speaker-list-{{ speaker.id}}" class="d-flex">{{ speaker.name }}</h2>
         </div>
         <div>
-            {{ speaker.bio }}
+            {{ speaker.bio | markdownify }}
         </div>
      </div>
 </div>
