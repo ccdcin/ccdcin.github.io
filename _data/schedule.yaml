@@ -2,59 +2,82 @@
   date: December 13th
   title: Let's Play&#58; An Introduction to Theatre of the Oppressed
   events:
-    - title: Let’s Play&#58; An Introduction to TO
-      timings: 10am - 1pm
+    - title: Introduction
+      timings: 9:30am - 10:30apm
+      speakers:
+        - radha
+      description: >-
+        Introduction and TO Games. 
+        
+    - title: Break
+      timings: 10:30am - 11:00am
+    
+    - title: Let's Play
+      timings: 11:00am - 1:00apm
       speakers:
         - ashima
+        - ravi
       description: >-
-        Games & Image Theatre. 
-
-    - title: Lunch
-      timings: 1pm - 2pm
+        TO Games continue.  
         
-    - title: Introduction to TO
+    - title: Lunch
+      timings: 1:00pm - 2:00pm
+
+    - title: Let's Play
       timings: 2pm - 4pm
+      speakers:
+        - ashima
+        - ravi
+      description: >-
+        Image Theatre. 
+        
+    - title: Coffee Break
+      timings: 4pm - 4:30pm
+      
+    - title: Let's Play
+      timings: 4:30pm - 5:30pm
       speakers:
         - radha
       description: >-
         Forum Theatre. 
-
-    - title: Coffee Break
-      timings: 4pm - 4:30pm
+          
+    - title: Break
+      timings: 5:30pm - 6:30pm
       
-    - title: Performance&#58; Naan Oru Pen
-      timings: 6pm - 7pm
-
+    - title: Naan Oru Pen
+      timings: 6:30pm - 7:30pm
+      speakers:
+        - sowmya
       description: >-
-        Naan Oru Pen is based on Maya Angelou's Phenomenal Woman and Still I Rise - performed by Sowmya, a trans artist with over 15 years of theatre experience.
+        Performance by Sowmya. Naan Oru Pen is based on Maya Angelou's Phenomenal Woman and Still I Rise. Directed by A Mangai.
 
     - title: Dinner
       timings: 7:30pm - 8:30pm
       
 - id: 2
   date: December 14th
-  title:
+  title: Day 2
   events:
     - title: Welcome and Introduction to the Conference
       timings: 9:00am - 9:30am
       speakers:
         - radha
-        - ravi
+        
       description: >-
-        Welcome address by Radha and Ravi Ramaswamy. 
+        Welcome address by Radha Ramaswamy. 
 
-    - title: Keynote Discussion
+    - title: Culture, Memory and Resistance&#58; The Role of the Artist in our Times
       timings: 9:30am - 10:30am
       speakers:
         - nisha
         - arvind
       description: >-
-        Keynote discussion with Nisha Abdulla and Arvind Narrain. 
+        Nisha Abdulla in conversation with Arvind Narrain. 
 
     - title: Break
       timings: 10:30am - 11:00am
 
-    - title: Panel&#58; Radical Play&#58; TO with Children and Young People
+    - title: Radical Play&#58; Working with Children and Young People
       timings: 11:00am - 1:00pm
       speakers:
         - timira
@@ -66,12 +89,12 @@
         - shahid
         - naghma
       description: >-
-        Session moderated by Timira. 
+        Panel discussion. Moderated by Timira Gupta. 
         
     - title: Lunch
       timings: 1:00pm - 2:00pm
 
-    - title: Panel&#58; Performing Gender
+    - title: Performing Gender
       timings: 2:00pm - 4:00pm
       speakers:
         - revathi
@@ -81,22 +104,16 @@
         - ayesha
         
       description: >-
-        Session begins with Vellai Mozhi, a performance by A Revathi. Panel discussion follows. Session moderated by Ayesha. 
+        Session begins with Vellai Mozhi, a performance by A Revathi. Panel discussion follows. Moderated by Ayush Gupta (Ayesha). 
 
     - title: Break
       timings: 4:00pm - 4:30pm
 
-    - title: Panel&#58; Performing Gender
+    - title: Performing Gender
       timings: 4:30pm - 5:30pm
-      speakers:
-        - revathi
-        - mangai
-        - aqsa
-        - geet
-        - ayesha
-        
+            
       description: >-
-        Session continues. 
+        Panel discussion continues. 
 
     - title: Break
       timings: 5:30pm - 6:00pm
@@ -114,47 +131,37 @@
       
 - id: 3
   date: December 15th
-  title:
+  title: Day 3
   events:
-    - title: Panel&#58; The Practice of Healing&#58; The Arts and Humanities in Health
+    - title: The Practice of Healing&#58; The Arts and Humanities in Health
       timings: 9:30am - 10:30am
       speakers:
         - navjeevan
         - harshu
-        - radha
-        - ashlesha
         - satendra
         - aqsa
-        - maitri
         - padmavati
-        
+        - ashlesha
+        - maitri
+        - radha
+                 
       description: >-
-        Session moderated by Navjeevan Singh. 
+        Panel discussion. Moderated by Dr Navjeevan Singh. 
 
-  
     - title: Break
       timings: 10:30am - 11:00am
         
 
-    - title: Panel&#58; The Practice of Healing&#58; The Arts and Humanities in Health
+    - title: The Practice of Healing&#58; The Arts and Humanities in Health
       timings: 11:00am - 1:00pm
-      speakers:
-        - navjeevan
-        - harshu
-        - radha
-        - ashlesha
-        - satendra
-        - aqsa
-        - maitri
-        - padmavati
         
       description: >-
-        Session continues. 
+        Panel discussion continues. 
         
     - title: Lunch
       timings: 1:00pm - 2:00pm
 
-    - title: Panel&#58; Jokering Change&#58; TO for Our Times
+    - title: Jokering Change&#58; TO for Our Times
       timings: 2:00pm - 4:00pm
       speakers:
         - timira
@@ -170,29 +177,28 @@
     - title: Break
       timings: 4:00pm - 4:30pm
       
-    - title: Panel&#58; Jokering Change&#58; TO for Our Times
+    - title: Jokering Change&#58; TO for Our Times
       timings: 4:30pm - 5:30pm
-      speakers:
-        - timira
-        - manikandan
-        - ashima
-        - radha
-        - ravi
-        - piramal
-        
+             
       description: >-
-        Session facilitated by Benson Issac.
+        Session continues.
+            
+    - title: Jokering Change&#58; TO for Our Times
+      timings: 5:30pm - 6:00pm
+             
+      description: >-
+        Closing discussion and feedback.
 
     - title: Break
-      timings: 5:30pm - 6:30pm
+      timings: 6:00pm - 6:30pm
      
-    - title: Soliga performance
+    - title: Gorukana
       timings: 6:00pm - 7:30pm
       speakers:
         - soliga
         
       description: >-
-        Performance by Soliga community from BR Hills, Karnataka. 
+        Performance by members of the Soliga community from BR Hills, Karnataka. 
         
     - title: Dinner
       timings: 7:30pm - 8:30pm
