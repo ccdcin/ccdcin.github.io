@@ -7,7 +7,9 @@
             {% if speaker.pic %}
                 {% assign profile_picture = '/assets/img/speakers/' | append: speaker.pic | relative_url %}
                 {% assign file = site.static_files | where: "path", profile_picture | first %}
+                {% if site.debug %}
                     <script>jekyllDebug("file", "{{ file | jsonify | uri_escape }}")</script>
+                {% endif %}
                 {% capture actual_profile %}{% if file and file.size != 0 %}{{ profile_picture }}{% else %}{{ '/assets/img/speakers/generic-profile.png' | relative_url }}{% endif %}{% endcapture %}
             {% else %}
                 {% assign actual_profile = '/assets/img/speakers/generic-profile.png' | relative_url %}

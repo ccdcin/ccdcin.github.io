@@ -93,9 +93,12 @@
         (function() {
             const logo = document.getElementById("logo-nav");
             const register = document.getElementById("register-nav");
+            const top = document.getElementById("top-nav");
             if (document.location.pathname == '/speakers/') {
                 logo.classList.remove("d-none");
                 register.classList.remove("d-none");
+                top.classList.remove("justify-content-end");
+                top.classList.add("justify-content-around");
             } else {
                 window.addEventListener('scroll', (evt) => {
                     const scroll = document.documentElement.scrollTop || document.body.scrollTop;
@@ -105,9 +108,13 @@
                     if (scroll > 830) {
                         logo.classList.remove("d-none");
                         register.classList.remove("d-none");
+                        top.classList.remove("justify-content-end");
+                        top.classList.add("justify-content-around");
                     } else {
                         logo.classList.add("d-none");
                         register.classList.add("d-none");
+                        top.classList.remove("justify-content-around");
+                        top.classList.add("justify-content-end");
                     }
                 });
             }
@@ -116,8 +123,6 @@
             const navLinks = document.querySelectorAll('.nav-item');
             const menuToggle = document.getElementById('navbarCollapseMenu');
             const bsCollapse = bootstrap.Collapse.getOrCreateInstance(menuToggle, {toggle: false});
-            console.log(bsCollapse);
-            console.log(navLinks);
             navLinks.forEach((l) => {
                 l.addEventListener('click', () => {
                     if (menuToggle.classList.contains('show')) {  // only fire on mobile

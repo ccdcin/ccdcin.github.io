@@ -119,6 +119,13 @@ $thumbnail-border-width: 0px;
     .nav-link {
         text-transform: uppercase;
     }
+
+    @include media-breakpoint-down(md) {
+        margin-left: 0;
+        padding-left: 9rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
 }
 
 .landing-byline {
@@ -127,12 +134,27 @@ $thumbnail-border-width: 0px;
     font-size: unquote("clamp(1.5rem, 1.3193rem + 0.7266vw, 2.5rem)");
     font-weight: bold;
     padding-left: 1.4rem;
+
+    @include media-breakpoint-down(md) {
+        padding-left: 0;
+    }
 }
 
 .dd-landing {
     margin-top: 5rem;
     margin-left: 3rem;
     margin-bottom: 1rem;
+    @include media-breakpoint-down(md) {
+        margin-left: -1rem;
+    }
+}
+
+.date-venue {
+    margin-left: 10rem;
+
+    @include media-breakpoint-down(md) {
+        margin-left: 0;
+    }
 }
 
 .dates {
@@ -148,22 +170,13 @@ $thumbnail-border-width: 0px;
     font-weight: 300;
 }
 
-// .registration-div {
-//     margin-left: 0.1em;
-//     padding-top: 0.1em;
-
-//     .registration-link {
-//         padding-left: 2px;
-//         padding-right: 2px;
-//     }
-// }
 .registration-div {
-    height: 1rem;
     padding-right: 6rem;
+    margin-right: -10rem;
 
     @include media-breakpoint-down(md) {
         padding-right: 0rem !important;
-        margin-left: 3rem;
+        margin-left: -6rem;
         margin-top: 2rem;
     }
 
@@ -282,9 +295,9 @@ button:focus {
 }
 
 h1 {
-    margin-top: 2em;
-    margin-bottom: 1.5em;
-    margin-left: 1.3em;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    margin-left: 0.8rem;
     text-transform: uppercase;
     text-decoration: none;
 }
