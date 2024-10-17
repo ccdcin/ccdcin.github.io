@@ -24,11 +24,11 @@
                 If you are on your mobile try this link to see if it launches your UPI app: <a href="upi://pay?pa=dialogue21148@iob&pn=CCDC&cu=INR">dialogue21148@iob</a>
             </p>
             <p>
-                Otherwise try this link to copy our UPI ID to your clipboard <button class="btn btn-link" type="button" onclick="javascript:copyUPI()">Copy UPI: dialogue21148@iob</button>
+                Otherwise try this link to copy our UPI ID to your clipboard <button id="copy-code" class="btn btn-link"  type="button">dialogue21148@iob</button>
             </p>
             <p>
                 Or save and scan the image below: <br/>
-                <img src="{{ '/assets/img/upi_code.png' | relative_url }}">
+                <img src="{{ '/assets/img/upi_code.jpg' | relative_url }}">
             </p>
             <p>
                 In case you wish to make a bank transfer, here are CCDC’s bank account details.
@@ -48,12 +48,22 @@
     </div>
 </div>
 
-<script type="text/javascript">
-function async copyUPI() {
-    navigator.permissions.query({ name: "write-on-clipboard" }).then((result) => {
-      if (result.state == "granted" || result.state == "prompt") {
-        await navigator.clipboard.writeText("dialogue21148@iob");
-      }
-    });
+<style>
+#copy-code {
+    font-size: 1.3rem;
 }
+</style>
+
+<script type="text/javascript">
+    document.getElementById("copy-code").addEventListener('click', async () => {
+        var range = document.createRange();
+        range.selectNode(document.getElementById("copy-code"));
+        window.getSelection().removeAllRanges(); // clear current selection
+        window.getSelection().addRange(range); // to select text
+        document.execCommand("copy");
+        window.getSelection().removeAllRanges();// to deselect
+        await navigator.clipboard.writeText(range.toString());
+    }); 
 </script>
+
+
