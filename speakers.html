@@ -9,7 +9,7 @@ permalink: speakers/
 {%- for speaker in site.data.speakers %}
 {% assign mod = forloop.index | modulo: 3 %}
 {% if mod == 1 %}
-<div class="row ms-2 ps-5 d-flex-row justify-content-between pe-4">
+<div class="row ms-2 ps-2 ps-md-5 d-flex-row justify-content-between pe-4">
 {% endif %}
 
 {% include speaker.html speaker=speaker mod=mod %}
@@ -25,10 +25,20 @@ permalink: speakers/
 <h1 id="speakers-list">Bios</h1>
 <div class="container-fluid speaker-list">
 {%- for speaker in site.data.speakers %}
-<div class="row mx-5 speaker-list-entry my-4 py-4">
+<div id="speaker-list-{{ speaker.id}}" class="row mx-0 mx-md-5 speaker-list-entry my-4 py-4">
     <div class="col-md-3">
         <div class="card profile-picture-list py-3">
-            <img class="img-thumbnail rounded-circle" src="{{ '/assets/img/speakers/' | append: speaker.pic | relative_url }}">
+            {% if speaker.pic %}
+                {% assign profile_picture = '/assets/img/speakers/' | append: speaker.pic | relative_url %}
+                {% assign file = site.static_files | where: "path", profile_picture | first %}
+                {% if site.debug %}
+                    <script>jekyllDebug("file", "{{ file | jsonify | uri_escape }}")</script>
+                {% endif %}
+                {% capture actual_profile %}{% if file and file.size != 0 %}{{ profile_picture }}{% else %}{{ '/assets/img/speakers/generic-profile.png' | relative_url }}{% endif %}{% endcapture %}
+            {% else %}
+                {% assign actual_profile = '/assets/img/speakers/generic-profile.png' | relative_url %}
+            {% endif %}
+            <img class="img-thumbnail rounded-circle" src="{{ actual_profile }}">
             {% if speaker.social.size > 0 %}
             <ul>
                 {% for h in speaker.social %}
@@ -41,9 +51,9 @@ permalink: speakers/
         </div> 
         
     </div>
-    <div class="col-md-7">
+    <div class="col-md-9">
         <div class="d-flex justify-content-between py-4">
-            <h2 id="speaker-list-{{ speaker.id}}" class="d-flex">{{ speaker.name }}</h2>
+            <h2 class="d-flex">{{ speaker.name }}</h2>
         </div>
         <div>
             {{ speaker.bio | markdownify }}

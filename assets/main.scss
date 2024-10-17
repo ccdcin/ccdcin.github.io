@@ -24,12 +24,18 @@ $green: #16b491;
 $blue: #253778;
 $yellow: #fbbb10;
 $gray-200: #e2e2e2;
+$yellow-alt: #ffd76c;
+$green-alt: #76dac4;
+$red-alt: #f29f8f;
+
 $container-padding-x: 1rem;
+
 
 $font-family-base: "Avion Regular";
 $display-font-family: "Avion Black";
 $headings-font-family: "Avion Black";
 $btn-font-family: "Avion Bold";
+//$font-size-base: calc(12px + (0.1vw * 2));
 
 $accordion-icon-width: 1.5em;
 $accordion-color: $blue;
@@ -116,9 +122,9 @@ $thumbnail-border-width: 0px;
 }
 
 .landing-byline {
-    background-color: $blue;
-    color: $white;
-    font-size: 2rem;
+    background-color: transparent;
+    color: $blue;
+    font-size: unquote("clamp(1.5rem, 1.3193rem + 0.7266vw, 2.5rem)");
     font-weight: bold;
     padding-left: 1.4rem;
 }
@@ -131,13 +137,13 @@ $thumbnail-border-width: 0px;
 
 .dates {
     color: $green;
-    font-size: 2.8rem;
+    font-size: unquote("clamp(1.4rem, 1.147rem + 1.0173vw, 2.8rem)");
     font-weight: 400;
 }
 
 .venue {
     color: $blue;
-    font-size: 2.8rem;
+    font-size: unquote("clamp(1.3rem, 1.1193rem + 0.7266vw, 2.3rem)");
     padding-left: 1rem;
     font-weight: 300;
 }
@@ -153,9 +159,16 @@ $thumbnail-border-width: 0px;
 // }
 .registration-div {
     height: 1rem;
+    padding-right: 6rem;
+
+    @include media-breakpoint-down(md) {
+        padding-right: 0rem !important;
+        margin-left: 3rem;
+        margin-top: 2rem;
+    }
 
     .registration-link {
-        font-size: 2.5rem;
+        font-size: 1.5rem;
         text-transform: uppercase;
     }
 }
@@ -178,7 +191,7 @@ $thumbnail-border-width: 0px;
 // }
 
 .day-title {
-    font-size: 1.4em;
+    font-size: unquote("clamp(1.1rem, 1.0277rem + 0.2906vw, 1.5rem)");
     width: 100%;
 }
 
@@ -187,19 +200,56 @@ $thumbnail-border-width: 0px;
     .accordion-button {
         background-color: $yellow !important;
     }
+    .accordion-body {
+        .container-fluid {
+            margin-left: -20px;
+            margin-right: -20px;
+            width: calc(100vw - 30px);
+        }
+        .alt {
+            background-color: $yellow-alt !important;
+        }
+    }
 }
 
 .day-2 {
     background-color: $green;
     .accordion-button {
         background-color: $green !important;
+        .alt {
+            background-color: $green-alt;
+        }
     }
+    .accordion-body {
+        .container-fluid {
+            margin-left: -20px;
+            margin-right: -20px;
+            width: calc(100vw - 30px);
+        }
+        .alt {
+            background-color: $green-alt !important;
+        }
+    }
+
 }
 
 .day-3 {
     background-color: $red;
     .accordion-button {
         background-color: $red;
+        .alt {
+            background-color: $red-alt;
+        }
+    }
+    .accordion-body {
+        .container-fluid {
+            margin-left: -20px;
+            margin-right: -20px;
+            width: calc(100vw - 30px);
+        }
+        .alt {
+            background-color: $red-alt !important;
+        }
     }
 }
 
@@ -218,6 +268,11 @@ $thumbnail-border-width: 0px;
 //     }
 // }
 
+.accordion-header {
+    font-family: "Avion Bold";
+    font-weight: lighter;
+}
+
 a:focus {
     outline: none;
 }
@@ -228,7 +283,7 @@ button:focus {
 
 h1 {
     margin-top: 2em;
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
     margin-left: 1.3em;
     text-transform: uppercase;
     text-decoration: none;
@@ -239,15 +294,28 @@ h1 {
 // }
 
 .about-section {
-    font-size: 1.7rem;
+    font-size: unquote("clamp(1.2rem, 1.1096rem + 0.3633vw, 1.7rem)");
     color: $gray-800;
+    p {
+        text-align: justify;
+        padding-right: unquote("clamp(0.5rem, 0.2289rem + 1.0899vw, 2rem)");
+        padding-left: 0.5rem;
+    }
 }
 
 .profile-picture {
     position: relative;
-    top: -40px;
-    left: -50px;
+    top: 10px;
+    //top: -40px;
+    //left: -50px;
     background-color: transparent; 
+}
+
+@include media-breakpoint-down(md) {
+    .page-content img {
+        max-width: 75%;
+        margin-left: 2rem;
+    }
 }
 
 .profile-picture-list {
@@ -279,7 +347,7 @@ h1 {
 }
 
 .programme-entry {
-    font-size: 1.4rem;
+    font-size: unquote("clamp(1rem, 0.9322rem + 0.2725vw, 1.375rem)");
 }
 
 //Programme display event entries
@@ -293,6 +361,9 @@ h1 {
 
 .event-speakers {
     flex: 1 1 auto;
+    a {
+        text-decoration: none;
+    }
 }
 
 .event-description {
@@ -301,12 +372,18 @@ h1 {
 }
 
 .donate-section {
-    font-size: 1.5rem;
+    font-size: unquote("clamp(1.2rem, 1.1096rem + 0.3633vw, 1.7rem)");
     color: $gray-800;
+    p {
+        text-align: justify;
+        padding-right: unquote("clamp(0.5rem, 0.2289rem + 1.0899vw, 2rem)");
+        padding-left: 0.5rem;
+    }
 }
 
 body {
     overflow-anchor: none !important;
+    font-size: unquote("clamp(1rem, 0.6822rem + 0.2725vw, 1.125rem)");
 }
 
 html {

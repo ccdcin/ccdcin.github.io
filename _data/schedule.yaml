@@ -1,11 +1,11 @@
 - id: 1
-  date: December 13th
+  date: December 13
   title: Let's Play&#58; An Introduction to Theatre of the Oppressed
   events:
-    - title: Introduction
-      timings: 9:30am - 10:30apm
+    - title: Let's Play
+      timings: 9:30am - 10:30am
       speakers:
-        - radha
+        - ashima
       description: >-
         Introduction and TO Games. 
         
@@ -13,7 +13,7 @@
       timings: 10:30am - 11:00am
     
     - title: Let's Play
-      timings: 11:00am - 1:00apm
+      timings: 11:00am - 1:00pm
       speakers:
         - ashima
         - ravi
@@ -24,15 +24,15 @@
       timings: 1:00pm - 2:00pm
 
     - title: Let's Play
-      timings: 2pm - 4pm
+      timings: 2:00pm - 4:00pm
       speakers:
         - ashima
         - ravi
       description: >-
         Image Theatre. 
         
-    - title: Coffee Break
-      timings: 4pm - 4:30pm
+    - title: Break
+      timings: 4:00pm - 4:30pm
       
     - title: Let's Play
       timings: 4:30pm - 5:30pm
@@ -44,19 +44,19 @@
     - title: Break
       timings: 5:30pm - 6:30pm
       
-    - title: Naan Oru Pen
+    - title: _Naan Oru Pen_
       timings: 6:30pm - 7:30pm
       speakers:
         - sowmya
       description: >-
-        Performance by Sowmya. Naan Oru Pen is based on Maya Angelou's Phenomenal Woman and Still I Rise. Directed by A Mangai.
+        Performance by Sowmya. _Naan Oru Pen_ is based on Maya Angelou's _Phenomenal Woman_ and _Still I Rise._ Directed by A Mangai.
 
     - title: Dinner
       timings: 7:30pm - 8:30pm
       
 - id: 2
-  date: December 14th
-  title: Day 2
+  date: December 14
+  title:
   events:
     - title: Welcome and Introduction to the Conference
       timings: 9:00am - 9:30am
@@ -104,7 +104,7 @@
         - ayesha
         
       description: >-
-        Session begins with Vellai Mozhi, a performance by A Revathi. Panel discussion follows. Moderated by Ayush Gupta (Ayesha). 
+        _Vellai Mozhi_, a performance by A Revathi. Panel discussion follows. Moderated by Ayush Gupta (Ayesha). 
 
     - title: Break
       timings: 4:00pm - 4:30pm
@@ -118,7 +118,7 @@
     - title: Break
       timings: 5:30pm - 6:00pm
       
-    - title: wepushthesky
+    - title: _wepushthesky_
       timings: 6:00pm - 7:30pm
       speakers:
         - nisha
@@ -130,8 +130,8 @@
       timings: 7:30pm - 8:30pm
       
 - id: 3
-  date: December 15th
-  title: Day 3
+  date: December 15
+  title:
   events:
     - title: The Practice of Healing&#58; The Arts and Humanities in Health
       timings: 9:30am - 10:30am
@@ -161,29 +161,29 @@
     - title: Lunch
       timings: 1:00pm - 2:00pm
 
-    - title: Jokering Change&#58; TO for Our Times
+    - title: Jokering Change&#58; TO for our times
       timings: 2:00pm - 4:00pm
       speakers:
         - timira
         - manikandan
         - ashima
+        - piramal
         - radha
         - ravi
-        - piramal
         
       description: >-
-        Session facilitated by Benson Issac.
+        Panel discussion moderated by Benson Issac.
 
     - title: Break
       timings: 4:00pm - 4:30pm
       
-    - title: Jokering Change&#58; TO for Our Times
+    - title: Jokering Change&#58; TO for our times
       timings: 4:30pm - 5:30pm
              
       description: >-
-        Session continues.
+        Discussion continues.
             
-    - title: Jokering Change&#58; TO for Our Times
+    - title: Jokering Change&#58; TO for our times
       timings: 5:30pm - 6:00pm
              
       description: >-
@@ -192,7 +192,7 @@
     - title: Break
       timings: 6:00pm - 6:30pm
      
-    - title: Gorukana
+    - title: _Gorukana_
       timings: 6:00pm - 7:30pm
       speakers:
         - soliga

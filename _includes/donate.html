@@ -1,21 +1,37 @@
 <div class="container-fluid donate-section">
     <div class="row">
-        <div class="d-flex flex-column text-dark mx-4 px-4">
+        <div class="col-md-12">
+            <p>
+                This conference is a catalyst for sustainable change. Theatre of the Oppressed promotes democratic practices at the grassroots level by embodying the principles of inclusion, participation, and collective decision-making.
+            </p>
+            <p>
+                Our conference presenters have all been working on the ground on issues such as mental health, education, gender, and community development. To continue and expand this critical work, they need the opportunity to collaborate and share insights, which are essential for refining and scaling up their initiatives.
+            </p>
+            <p>
+                Your support is vital- it will provide an opportunity for the work of these amazing practitioners to have the broad social impact that it deserves to have. The conference will provide them with new tools, perspectives, and partnerships that will enhance their work. This, in turn, will benefit the communities they serve by improving the effectiveness and sustainability of local projects.
+            </p>
+            <p>
+                In addition to this, the conference will be critical to the advancement of Theatre of the Oppressed in India. The connections made at the conference will help to sustain a vibrant TO community in India, ensuring that the practice continues to evolve and adapt to changing social realities.
+            </p>
             <p>
                 Thank you for your support!
                 You can donate by scanning the QR Code below.
             </p>
             <p>
-                UPI Code: dialogue21148@iob <br/>
-                <br/>
+                UPI Code: dialogue21148@iob
+            </p>
+            <p>
+                If you are on your mobile try this link to see if it launches your UPI app: <a href="upi://pay?pa=dialogue21148@iob&pn=CCDC&cu=INR">dialogue21148@iob</a>
+            </p>
+            <p>
+                Otherwise try this link to copy our UPI ID to your clipboard <button class="btn btn-link" type="button" onclick="javascript:copyUPI()">Copy UPI: dialogue21148@iob</button>
+            </p>
+            <p>
+                Or save and scan the image below: <br/>
                 <img src="{{ '/assets/img/upi_code.png' | relative_url }}">
             </p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="d-flex flex-column text-dark mx-4 px-4">
             <p>
-                In case you wish to make a bank transfer, here are CCDC’s bank account details. <br/>
+                In case you wish to make a bank transfer, here are CCDC’s bank account details.
             </p>
             <p>
                 Account Name: Centre for Community Dialogue and Change <br/>
@@ -25,13 +41,19 @@
                 Account type: Savings<br/>
                 IFSC : IOBA0000665<br/>
             </p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="d-flex flex-column text-dark mx-4 px-4">
             <p>
-                Please contact us at <a href="mailto:contact@ccdc.in">contact@ccdc.in</a> if you experience any difficulty making your contribution.
+                If you experience any difficulty making your contribution, please contact us at <a href="mailto:contact@ccdc.in">contact@ccdc.in</a>.
             </p>
         </div>
     </div>
 </div>
+
+<script type="text/javascript">
+function async copyUPI() {
+    navigator.permissions.query({ name: "write-on-clipboard" }).then((result) => {
+      if (result.state == "granted" || result.state == "prompt") {
+        await navigator.clipboard.writeText("dialogue21148@iob");
+      }
+    });
+}
+</script>

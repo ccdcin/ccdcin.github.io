@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
+    {% if site.debug %}
     <script type="text/javascript">
         function formatDebugMessage(tag, msg, previousContent) {
             return `${previousContent}\n${tag}\n${msg}`;
@@ -45,6 +46,8 @@
             mutationObserver.observe(debugEl, mutationConfig);
         })
     </script>
+    {% endif %}
+
   {%- include head.html -%}
 
   <body class="bg-gray">
@@ -70,6 +73,7 @@
         </div>
     </div>
     {% endif %}
+    {% if site.debug %}
     <div id="debug-console" class="modal">
         <div class="modal-dialog modal-fullscreen">
             <div class="modal-content">
@@ -84,6 +88,7 @@
             </div>
         </div>
     </div>
+    {% endif %}
     <script type="text/javascript">
         (function() {
             const logo = document.getElementById("logo-nav");
@@ -94,7 +99,9 @@
             } else {
                 window.addEventListener('scroll', (evt) => {
                     const scroll = document.documentElement.scrollTop || document.body.scrollTop;
+                    {% if site.debug %}
                     console.log(scroll);
+                    {% endif %}
                     if (scroll > 830) {
                         logo.classList.remove("d-none");
                         register.classList.remove("d-none");
@@ -105,7 +112,21 @@
                 });
             }
         })();
+        (function() {
+            const navLinks = document.querySelectorAll('.nav-item');
+            const menuToggle = document.getElementById('navbarCollapseMenu');
+            const bsCollapse = bootstrap.Collapse.getOrCreateInstance(menuToggle, {toggle: false});
+            console.log(bsCollapse);
+            console.log(navLinks);
+            navLinks.forEach((l) => {
+                l.addEventListener('click', () => {
+                    if (menuToggle.classList.contains('show')) {  // only fire on mobile
+                        bsCollapse.toggle();
+                        //menuToggle.classList.toggle('show');
+                    }
+                })
+            });
+        })();
     </script>
   </body>
-
 </html>

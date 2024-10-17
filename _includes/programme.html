@@ -18,21 +18,21 @@
         <div id="{{day.id}}-programme" class="accordion-collapse collapse" data-bs-parent="#programmeAccordion">
             <div class="programme-entry accordion-body d-flex flex-column justify-content-between align-items-center">
                 {%- for event in day.events %}
-                <div class="container-fluid">
+                <div class="container-fluid{% cycle ' alt', '' %}">
                     <div class="row px-4">
                         <div class="col-md-2 event-timings">{{event.timings}}</div>
-                        <div class="col-md-2 event-title">{{event.title}}</div>
+                        <div class="col-md-2 event-title">{{event.title | markdownify }}</div>
+                        <div class="col-md-4 event-description">{{event.description | markdownify }}</div>
                         <div class="col-md-2 event-speakers">
                             {% if event.speakers %}
-                            <ul>
+                            <ul class="list-unstyled">
                             {% for speaker in event.speakers %}
                                 {% assign speakerObj = site.data.speakers | where: "id", speaker | first %}
-                                <li><a href="{{ '/speakers/#speakers-grid' | relative_url }}">{{speakerObj.name}}</a></li>
+                                <li><a href="{{ '/speakers/#speaker-grid-' | append: speaker | relative_url }}">{{speakerObj.name}}</a></li>
                             {% endfor %}
                             </ul>
                             {% endif %}
                         </div>
-                        <div class="col-md-4 event-description">{{event.description}}</div>
                     </div>
                 </div>
                 {% endfor %}
