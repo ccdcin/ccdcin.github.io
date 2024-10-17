@@ -1,3 +1,52 @@
+- name: Dr Aqsa Shaikh
+  id: aqsa
+  pic: aqsa.png
+  bio: Dr Aqsa Shaikh is a medical doctor and Community Medicine Specialist. She
+    is an Associate Professor of Community Medicine at HIMSR, Jamia Hamdard,
+    Delhi. She is India’s first and only Transgender woman to head a Covid
+    Vaccination center and be an investigator in Covid Vaccine Clinical trials
+    of Sputnik Vaccine. She has also been a part of WHO Research on Epidemiology
+    of Covid-19 Transmission amongst healthcare workers. She is working with
+    Sangath, on TransCare Covid-19 Project to study the access to healthcare by
+    Transgender Community in Pandemic. She is also a part of University of
+    Chicago funded project on reforming Medical Education to make it
+    Trans-affirmative. Dr. Shaikh is an investigator in VaccinEquity Project by
+    Sabin Vaccine Institute to study the access to Covid-19 Vaccination by the
+    Transgender Community. Born and brought up in Mumbai, she completed her
+    education from Seth GS Medical College. She is a Proud Transgender Woman and
+    works on LGBTQIA+ rights, Rights of Persons with Disability, and Mental
+    Health. She has a keen interest in Medical Ethics, Medical Humanities, and
+    Medical Education Technology and is a Fellow of Advanced Course in Medical
+    Education. She also serves as Section Editor of PLOS Global Public Health
+    and is a reviewer with Research in Humanities in Medical Education.
+    
+- name: Arvind Narrain
+  id: arvind
+  pic: arvind.png
+  bio: >-
+    Arvind Narrain has been involved with research, writing and practice
+    related to law and social concerns. He has done a bachelor’s in law from the
+    National Law School of India University(NLSIU) followed by a masters in the
+    University of Warwick on a Chevening scholarship. He is currently in the
+    process of doing his PhD on ‘Mapping the elements of an Ambedkarite
+    jurisprudence’ at the NLSIU.
+
+
+    He is the author of India’s Undeclared Emergency&#58; Constitutionalism and the Politics of Resistance and the co-editor of Law Like Love&#58; Queer perspectives on law as well as the Co-author of Breathing Life into the Constitution. He was the founding member of the Alternative Law Forum [www.altlawforum.org](https://www.altlawforum.org) He was also a part of the team of lawyers challenging Section 377 of the IPC right from the High Court in 2009 to the Supreme Court in 2018.
+
+- name: Ashima Vishnoi
+  id: ashima
+  pic: ashima.png
+  bio: >-
+    Graduated in English literature from University of Delhi and post graduated in Education from Azim Premji University, Ashima is an educator cum learner, an applied Theater practitioner and in last eight and a half years she has worked with youth and children extensively in different parts of India with different organizations,schools and colleges. She practices different art forms to create collective learning in collaborative spaces for critical thinking and collective resolutions. 
+
+
+    She was a peace walker in the global peace movement Jai Jagat 2020.
+    Some of the places she has worked with are Rangbhumi- a happy playground, Mumbai, Centre for Community Dialogue and change, Bangalore, Eklavya Tamia , Nari Gunjan Patna, Living Farms Orissa, Saahas Delhi, DIET Korba, and many more schools and colleges across India. Committed to bring a pedagogical shift in learning spaces she keeps on learning and teaching in different area of life.
+
+
+    She currently is creating spaces and holding workshops to facilitate applied theatre sessions and retreats in and around Bhopal as an independent artist and practitioner.
+    
 - name: Dr Ashlesha Bagadia
   id: ashlesha
   pic: ashlesha.png
@@ -15,7 +64,7 @@
 
 
     She is the director and co-founder of The Parc, our training partner, through which she conducts workshops and training courses on various therapeutic skills for counsellors, psychologists, social workers, psychiatrists and mental health clinicians from any background. She was recently elected as the President of SAMA- South Asian Marcé Association, which is a regional chapter of the International Marcé Society for Perinatal Mental Health.
-
+    
 - name: Ayush Gupta (Ayesha)
   id: ayesha
   pic: ayesha.png
@@ -44,15 +93,7 @@
     gender. In collaboration with CCDC, they have designed & facilitated Theatre
     of the Oppressed workshops for teachers and for grassroots transgender
     communities. "
-- name: Basavaraju Soliga
-  id: soliga
-  pic: soliga.png
-  bio: Soligas are an indigenous tribe of Karnataka, inhabiting the peripheral
-    forest areas near Biligiri Rangana Hills and Male Mahadeshwara in
-    Chamarajnagar district. Traditionally they have been dependent on the
-    forests for their livelihood. The Soligas are also called the children of
-    bamboo because the word is believed to mean that they originated from
-    bamboo.
+
 - name: Benson Issac
   id: benson
   pic: benson.png
@@ -67,27 +108,7 @@
     sensitising and mobilising youth around social change, trained youth in
     alternative livelihoods and contributed to developing the body of knowledge
     around youth studies. "
-- name: Dr Aqsa Shaikh
-  id: aqsa
-  pic: aqsa.png
-  bio: Dr Aqsa Shaikh is a medical doctor and Community Medicine Specialist. She
-    is an Associate Professor of Community Medicine at HIMSR, Jamia Hamdard,
-    Delhi. She is India’s first and only Transgender woman to head a Covid
-    Vaccination center and be an investigator in Covid Vaccine Clinical trials
-    of Sputnik Vaccine. She has also been a part of WHO Research on Epidemiology
-    of Covid-19 Transmission amongst healthcare workers. She is working with
-    Sangath, on TransCare Covid-19 Project to study the access to healthcare by
-    Transgender Community in Pandemic. She is also a part of University of
-    Chicago funded project on reforming Medical Education to make it
-    Trans-affirmative. Dr. Shaikh is an investigator in VaccinEquity Project by
-    Sabin Vaccine Institute to study the access to Covid-19 Vaccination by the
-    Transgender Community. Born and brought up in Mumbai, she completed her
-    education from Seth GS Medical College. She is a Proud Transgender Woman and
-    works on LGBTQIA+ rights, Rights of Persons with Disability, and Mental
-    Health. She has a keen interest in Medical Ethics, Medical Humanities, and
-    Medical Education Technology and is a Fellow of Advanced Course in Medical
-    Education. She also serves as Section Editor of PLOS Global Public Health
-    and is a reviewer with Research in Humanities in Medical Education.
+
 - name: Geet
   id: geet
   pic: geet.png
@@ -103,6 +124,7 @@
     Geet is keen to explore ways in which people from marginalised backgrounds
     can make themselves heard and tell their own stories. Geet is also a
     Chartered Accountant.
+    
 - name: Dr Harshawardhan Shrotri
   id: harshu
   pic: harshu.png
@@ -149,8 +171,23 @@
     deal with women –centered themes and characters. Her book Acting Up&#58;
     Gender and Theatre in India 1979 Onwards has been published by Left Word,
     New Delhi."
-
-
+    
+- name: Manikandan Pari
+  id: manikandan
+  pic: manikandan.png
+  bio: Manikandan started his career as a professional social worker. He has completed his M.Phil in Social work in 2016. Currently he works as a research assistant at SCARF India. He has over 6 years of experience working with people with mental illness and their families as an agent of support and guidance. His professional life includes a commitment to serving the needs of persons with mental illness and their families as a social worker.. He has also trained Self Help groups(SHG) and community workers and has conducted various Awareness programmes on HIV, TB, blood donation, and pandemic crisis intervention, apart from mental health. His primary hobbies include poetry writing and bike riding.
+  
+- name: Naghma Khatoon
+  id: naghma
+  pic: naghma.png
+  bio: "Nagma is one of the younger powerhouses in the Aagaaz group. She has been
+    with Aagaaz since 2011 and loves singing, dancing, embroidery and of course-
+    theatre. She expresses that theatre offers her a new world, that has a set
+    of rules that are different from those in real life. This allows her to do
+    the things she would otherwise not be able to do. She is pursuing her
+    graduation from IGNOU and simultaneously trying to delve deep into
+    facilitation, since she values the give and take relationship it creates."
+    
 - name: Dr Navjeevan Singh
   id: navjeevan
   pic: navjeevan.png
@@ -164,8 +201,7 @@
     occasional opportunity to foray into a world I once knew&#58; the world of
     TO and the Health Humanities, I take a break. This trip to Bangalore is one
     such occasion. I look forward to having a rollicking time."
-
-  
+    
 - name: Nisha Abdulla
   id: nisha
   pic: nisha.png
@@ -185,15 +221,32 @@
     anti-caste advocacy. She also teaches at universities, schools, and
     community spaces."
 
-  
 - name: Noor Sengupta
   id: noor
   pic: noor.png
   bio: "Noor Senguptas bio."
+
+- name: Dr Padmavati R
+  id: padmavati
+  pic: padmavati.png
+  bio: "Dr R Padmavati currently holds the position of Director at Schizophrenia
+    Research Foundation, (SCARF, India). She completed her Postgraduate
+    Psychiatry degree at the University of Bombay, India and since then has been
+    with SCARF for over 28 years. She has been involved in several research
+    areas like epidemiological studies, drug trials, untreated schizophrenia,
+    culture and psychoses, metabolic disorders in mental illness. She has been
+    closely involved in SCARF’s community mental health programs and the
+    telepsychiatry project. Her key interests have been in socio-cultural
+    aspects of Mental illnesses. She has a keen interest in psychosocial
+    rehabilitation. She has extensively published and is a reviewer of many
+    national and international psychiatric journals. She teaches postgraduate
+    students of Psychiatry and guides postgraduate dissertations."
+    
 - name: Piramal Foundation
   id: piramal
   pic: piramal.png
   bio: "Piramal bio."
+  
 - name: Dr Radha Ramaswamy
   id: radha
   pic: radha.png
@@ -211,7 +264,22 @@
     education. Since founding CCDC, Radha has worked with diverse communities of
     people such as students, educators, women’s groups, activists, senior
     citizens, medical students, medical teachers and others."
-
+    
+- name: Ramya Sundarajan
+  id: ramya
+  pic: ramya.png
+  bio: "Ramya Sundarajan is the Chief Executive Officer at WeLive foundation and
+    has been a part of the team from the program inception stage. Her
+    association with WeLive has been extremely meaningful with her working as
+    head of programs for 2 years before assuming her current role. She is a
+    certified english language trainer who is associated with the Azim Premji
+    University as part-time faculty for their english language support centre.
+    With a postgraduate degree in management, Ramya is a professional
+    storyteller who takes great joy in her interactions with children and young
+    people. Her capacity to put in the work to make dreams a reality combined
+    with her fierce commitment to the cause makes her a valuable resource for
+    WeLive."
+    
 - name: Ravi Ramaswamy
   id: ravi
   pic: ravi.png
@@ -247,6 +315,26 @@
     Mozhi,\" a stage play directed by A. Mangai, at 108 locations across Tamil
     Nadu, Kerala, Karnataka, Rajasthan, Nepal, and the USA."
 
+- name: Samuel Moses
+  id: sam
+  pic: sam.png
+  bio: "Hello everybody! I’m Sam and I’m from Bangalore. I’m currently working as
+    an assistant football coach and as an inventory manager. I’m also a
+    professional athlete, and I have run multiple marathons across the calendar-
+    5k,10k,15k, 25k and 30k too. My dream is to become a football coach and an
+    athletics coach. Later this coming year, I will be competing for 50km and
+    100km.  I was pursuing my B.A in Psychology but had to quit due to some
+    urgent, personal issues.  Speaking about my background, I’m an orphan and I
+    have had no parents since the day I was born. One of my aunts rescued me
+    from the road side and raised me. Her name is Buelah John. She and her
+    husband John, and their two sons, took care of me, just like the way they
+    took care of their own sons. I grew up in their home. I had to move to an
+    NGO when I was 13. I did my 10th and PUC, and moved out again from there. It
+    was then I started living at WeLive foundation for a year and a half. Yeah,
+    I’ve had a tough life, not at all an easy life. I go through battles
+    everyday. And tears. Not at all easy to live the life of Sam. But still,
+    with a smile on my face, I do my work."
+    
 - name: Dr Satendra Singh
   id: satendra
   pic: satendra.png
@@ -268,68 +356,7 @@
     pivotal role in policy reforms, including the incorporation of disability
     rights in the new MBBS curriculum in India. He is also a dedicated ally of
     transgender and intersex rights."
-
-- name: Samuel Moses
-  id: sam
-  pic: sam.png
-  bio: "Hello everybody! I’m Sam and I’m from Bangalore. I’m currently working as
-    an assistant football coach and as an inventory manager. I’m also a
-    professional athlete, and I have run multiple marathons across the calendar-
-    5k,10k,15k, 25k and 30k too. My dream is to become a football coach and an
-    athletics coach. Later this coming year, I will be competing for 50km and
-    100km.  I was pursuing my B.A in Psychology but had to quit due to some
-    urgent, personal issues.  Speaking about my background, I’m an orphan and I
-    have had no parents since the day I was born. One of my aunts rescued me
-    from the road side and raised me. Her name is Buelah John. She and her
-    husband John, and their two sons, took care of me, just like the way they
-    took care of their own sons. I grew up in their home. I had to move to an
-    NGO when I was 13. I did my 10th and PUC, and moved out again from there. It
-    was then I started living at WeLive foundation for a year and a half. Yeah,
-    I’ve had a tough life, not at all an easy life. I go through battles
-    everyday. And tears. Not at all easy to live the life of Sam. But still,
-    with a smile on my face, I do my work."
-- name: Ramya Sundarajan
-  id: ramya
-  pic: ramya.png
-  bio: "Ramya Sundarajan is the Chief Executive Officer at WeLive foundation and
-    has been a part of the team from the program inception stage. Her
-    association with WeLive has been extremely meaningful with her working as
-    head of programs for 2 years before assuming her current role. She is a
-    certified english language trainer who is associated with the Azim Premji
-    University as part-time faculty for their english language support centre.
-    With a postgraduate degree in management, Ramya is a professional
-    storyteller who takes great joy in her interactions with children and young
-    people. Her capacity to put in the work to make dreams a reality combined
-    with her fierce commitment to the cause makes her a valuable resource for
-    WeLive."
-- name: Manikandan Pari
-  id: manikandan
-  pic: manikandan.png
-  bio: Manikanda bio.
-- name: Dr Padmavati R
-  id: padmavati
-  pic: padmavati.png
-  bio: "Dr R Padmavati currently holds the position of Director at Schizophrenia
-    Research Foundation, (SCARF, India). She completed her Postgraduate
-    Psychiatry degree at the University of Bombay, India and since then has been
-    with SCARF for over 28 years. She has been involved in several research
-    areas like epidemiological studies, drug trials, untreated schizophrenia,
-    culture and psychoses, metabolic disorders in mental illness. She has been
-    closely involved in SCARF’s community mental health programs and the
-    telepsychiatry project. Her key interests have been in socio-cultural
-    aspects of Mental illnesses. She has a keen interest in psychosocial
-    rehabilitation. She has extensively published and is a reviewer of many
-    national and international psychiatric journals. She teaches postgraduate
-    students of Psychiatry and guides postgraduate dissertations."
-- name: Timira Gupta
-  id: timira
-  pic: timira.png
-  bio: "Timira Gupta is a trained Arts-Based Therapy practitioner and uses
-    different artistic forms like drama, story-telling, visual art and circus
-    arts to work with children from different backgrounds. She is currently the
-    Executive Director of an ICSE school in Mumbai. While Timira’s heart is
-    immersed in the lives of children, her secret desire is to leave everything
-    and join a circus!"
+    
 - name: Shahid Shaikh
   id: shahid
   pic: shahid.png
@@ -344,46 +371,30 @@
     headed. He is never afraid to face his faults and always ready to embrace
     aspects of himself. He is intelligent and hardworking as a performer and
     always willing to go back to the drawing board."
-
-- name: Naghma Khatoon
-  id: naghma
-  pic: naghma.png
-  bio: "Nagma is one of the younger powerhouses in the Aagaaz group. She has been
-    with Aagaaz since 2011 and loves singing, dancing, embroidery and of course-
-    theatre. She expresses that theatre offers her a new world, that has a set
-    of rules that are different from those in real life. This allows her to do
-    the things she would otherwise not be able to do. She is pursuing her
-    graduation from IGNOU and simultaneously trying to delve deep into
-    facilitation, since she values the give and take relationship it creates."
-
-- name: Arvind Narrain
-  id: arvind
-  pic: arvind.png
-  bio: >-
-    Arvind Narrain has been involved with research, writing and practice
-    related to law and social concerns. He has done a bachelor’s in law from the
-    National Law School of India University(NLSIU) followed by a masters in the
-    University of Warwick on a Chevening scholarship. He is currently in the
-    process of doing his PhD on ‘Mapping the elements of an Ambedkarite
-    jurisprudence’ at the NLSIU.
-
-
-    He is the author of India’s Undeclared Emergency&#58; Constitutionalism and the Politics of Resistance and the co-editor of Law Like Love&#58; Queer perspectives on law as well as the Co-author of Breathing Life into the Constitution. He was the founding member of the Alternative Law Forum [www.altlawforum.org](https://www.altlawforum.org) He was also a part of the team of lawyers challenging Section 377 of the IPC right from the High Court in 2009 to the Supreme Court in 2018.
-
-- name: Ashima Vishnoi
-  id: ashima
-  pic: ashima.png
-  bio: >-
-    Graduated in English literature from University of Delhi and post graduated in Education from Azim Premji University, Ashima is an educator cum learner, an applied Theater practitioner and in last eight and a half years she has worked with youth and children extensively in different parts of India with different organizations,schools and colleges. She practices different art forms to create collective learning in collaborative spaces for critical thinking and collective resolutions. 
-
-
-    She was a peace walker in the global peace movement Jai Jagat 2020.
-    Some of the places she has worked with are Rangbhumi- a happy playground, Mumbai, Centre for Community Dialogue and change, Bangalore, Eklavya Tamia , Nari Gunjan Patna, Living Farms Orissa, Saahas Delhi, DIET Korba, and many more schools and colleges across India. Committed to bring a pedagogical shift in learning spaces she keeps on learning and teaching in different area of life.
-
-
-    She currently is creating spaces and holding workshops to facilitate applied theatre sessions and retreats in and around Bhopal as an independent artist and practitioner.
+        
+- name: Soliga community
+  id: soliga
+  pic: soliga.png
+  bio: Soligas are an indigenous tribe of Karnataka, inhabiting the peripheral
+    forest areas near Biligiri Rangana Hills and Male Mahadeshwara in
+    Chamarajnagar district. Traditionally they have been dependent on the
+    forests for their livelihood. The Soligas are also called the children of
+    bamboo because the word is believed to mean that they originated from
+    bamboo.
 
 - name: Sowmya
   id: sowmya
   bio: >-
-    Sowyma is a trans artist with more than 15 years of theatre experience.
+    Sowyma is a trans artist with more than 15 years of theatre experience. 
+
+- name: Timira Gupta
+  id: timira
+  pic: timira.png
+  bio: "Timira Gupta is a trained Arts-Based Therapy practitioner and uses
+    different artistic forms like drama, story-telling, visual art and circus
+    arts to work with children from different backgrounds. She is currently the
+    Executive Director of an ICSE school in Mumbai. While Timira’s heart is
+    immersed in the lives of children, her secret desire is to leave everything
+    and join a circus!"
+
+
