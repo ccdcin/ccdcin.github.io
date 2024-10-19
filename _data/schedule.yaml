@@ -1,6 +1,6 @@
 - id: 1
   date: December 13
-  title: Let's Play&#58; An Introduction to Theatre of the Oppressed
+  title: Friday
   events:
     - title: Let's Play
       timings: 9:30am - 10:30am
@@ -56,7 +56,7 @@
       
 - id: 2
   date: December 14
-  title:
+  title: Saturday
   events:
     - title: Welcome and Introduction to the Conference
       timings: 9:00am - 9:30am
@@ -131,7 +131,7 @@
       
 - id: 3
   date: December 15
-  title:
+  title: Sunday
   events:
     - title: The Practice of Healing&#58; The Arts and Humanities in Health
       timings: 9:30am - 10:30am

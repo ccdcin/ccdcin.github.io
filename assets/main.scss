@@ -215,9 +215,9 @@ $thumbnail-border-width: 0px;
     }
     .accordion-body {
         .container-fluid {
-            margin-left: -20px;
-            margin-right: -20px;
-            width: calc(100vw - 30px);
+            margin-left: 0px;
+            margin-right: 0px;
+            width: calc(100vw - 50px);
         }
         .alt {
             background-color: $yellow-alt !important;
@@ -235,9 +235,9 @@ $thumbnail-border-width: 0px;
     }
     .accordion-body {
         .container-fluid {
-            margin-left: -20px;
-            margin-right: -20px;
-            width: calc(100vw - 30px);
+            margin-left: 0px;
+            margin-right: 0px;
+            width: calc(100vw - 50px);
         }
         .alt {
             background-color: $green-alt !important;
@@ -256,9 +256,9 @@ $thumbnail-border-width: 0px;
     }
     .accordion-body {
         .container-fluid {
-            margin-left: -20px;
-            margin-right: -20px;
-            width: calc(100vw - 30px);
+            margin-left: 0px;
+            margin-right: 0px;
+            width: calc(100vw - 50px);
         }
         .alt {
             background-color: $red-alt !important;
@@ -274,12 +274,6 @@ $thumbnail-border-width: 0px;
 .accordion-item {
     color: $gray-900;
 }
-
-// .accordion-item:first-child {
-//     .accordion-header {
-//         margin-left: 2em;
-//     }
-// }
 
 .accordion-header {
     font-family: "Avion Bold";
@@ -302,10 +296,6 @@ h1 {
     text-decoration: none;
 }
 
-// .programme-accordion {
-//    width: 100%;
-// }
-
 .about-section {
     font-size: unquote("clamp(1.2rem, 1.1096rem + 0.3633vw, 1.7rem)");
     color: $gray-800;
@@ -319,8 +309,6 @@ h1 {
 .profile-picture {
     position: relative;
     top: 10px;
-    //top: -40px;
-    //left: -50px;
     background-color: transparent; 
 }
 
