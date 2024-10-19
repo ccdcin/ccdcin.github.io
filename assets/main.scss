@@ -394,6 +394,14 @@ h1 {
     }
 }
 
+img#upi {
+    width: 20%;
+    @include media-breakpoint-down(md) {
+        width: 60%;
+        margin-left: 3.7rem;
+    }
+}
+
 body {
     overflow-anchor: none !important;
     font-size: unquote("clamp(1rem, 0.6822rem + 0.2725vw, 1.125rem)");

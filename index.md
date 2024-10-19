@@ -14,6 +14,7 @@ title: Diversity Dialogs
 
 {% include about.html %}
 
-# Donate
+# Support this Conference!
+{: #donate}
 
 {% include donate.html %}
