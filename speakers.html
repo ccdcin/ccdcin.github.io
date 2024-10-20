@@ -27,7 +27,7 @@ permalink: speakers/
 {%- for speaker in site.data.speakers %}
 <div id="speaker-list-{{ speaker.id}}" class="row mx-0 mx-md-5 speaker-list-entry my-4 py-4">
     <div class="col-md-3">
-        <div class="card profile-picture-list py-3">
+        <div class="card profile-picture-list py-3 px-3">
             {% if speaker.pic %}
                 {% assign profile_picture = '/assets/img/speakers/' | append: speaker.pic | relative_url %}
                 {% assign file = site.static_files | where: "path", profile_picture | first %}
@@ -51,7 +51,7 @@ permalink: speakers/
         </div> 
         
     </div>
-    <div class="col-md-9">
+    <div class="col-md-9 px-3">
         <div class="d-flex justify-content-between py-4">
             <h2 class="d-flex">{{ speaker.name }}</h2>
         </div>

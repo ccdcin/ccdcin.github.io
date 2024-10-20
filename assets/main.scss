@@ -29,7 +29,7 @@ $green-alt: #76dac4;
 $red-alt: #f29f8f;
 
 $container-padding-x: 1rem;
-
+$grid-gutter-width: 0px;
 
 $font-family-base: "Avion Regular";
 $display-font-family: "Avion Black";
@@ -145,7 +145,7 @@ $thumbnail-border-width: 0px;
     margin-left: 3rem;
     margin-bottom: 1rem;
     @include media-breakpoint-down(md) {
-        margin-left: -2rem;
+        margin-left: 0;
     }
 }
 
@@ -314,6 +314,7 @@ h1 {
     position: relative;
     top: 10px;
     background-color: transparent; 
+    left: 10px;
 }
 
 @include media-breakpoint-down(md) {
@@ -321,7 +322,11 @@ h1 {
         max-width: 75%;
         margin-left: 2rem;
     }
-    
+
+    .dd-landing img {
+        margin-left: 0;
+    }
+
     #landing-banner {
         margin-left: 2.9rem;
     }
@@ -403,6 +408,12 @@ body {
     font-size: unquote("clamp(1rem, 0.6822rem + 0.2725vw, 1.125rem)");
 }
 
+
 html {
     scroll-padding-top: 106px;
 }
+
+// html > body > header > nav > div > div#navbarCollapseMenu.collapse.show {
+//    scroll-padding-top: 400px;
+// }
+
