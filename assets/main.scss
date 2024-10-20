@@ -131,7 +131,7 @@ $thumbnail-border-width: 0px;
 .landing-byline {
     background-color: transparent;
     color: $blue;
-    font-size: unquote("clamp(1.5rem, 1.3193rem + 0.7266vw, 2.5rem)");
+    font-size: unquote("clamp(1.2rem, 1.0193rem + 0.7266vw, 2.5rem)");
     font-weight: bold;
     padding-left: 1.4rem;
 
@@ -145,7 +145,7 @@ $thumbnail-border-width: 0px;
     margin-left: 3rem;
     margin-bottom: 1rem;
     @include media-breakpoint-down(md) {
-        margin-left: -1rem;
+        margin-left: -2rem;
     }
 }
 
@@ -168,6 +168,10 @@ $thumbnail-border-width: 0px;
     font-size: unquote("clamp(1.3rem, 1.1193rem + 0.7266vw, 2.3rem)");
     padding-left: 1rem;
     font-weight: 300;
+}
+
+.dates-venue-div {
+    margin-left: 2.7rem;
 }
 
 .registration-div {
@@ -316,6 +320,10 @@ h1 {
     .page-content img {
         max-width: 75%;
         margin-left: 2rem;
+    }
+    
+    #landing-banner {
+        margin-left: 2.9rem;
     }
 }
 
