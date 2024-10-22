@@ -414,6 +414,16 @@ html {
     scroll-padding-top: 106px;
 }
 
+#google-map {
+    width: 300px;
+    height: 225px;
+
+    @include media-breakpoint-up(lg) {
+        width: 600px;
+        height: 450px;
+    }
+}
+
 // html > body > header > nav > div > div#navbarCollapseMenu.collapse.show {
 //    scroll-padding-top: 400px;
 // }
