@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Diversity Dialogs
+title: Diversity Dialogues
 ---
 
 {% include landing_banner.html %}
