@@ -104,6 +104,7 @@
         - geet
         - shilpa
         - ayesha
+        - shyam
         
       description: >-
         _Vellai Mozhi_, a performance by A Revathi. Panel discussion follows. Moderated by Ayush Gupta (Ayesha). 
@@ -135,17 +136,13 @@
   date: December 15
   title: Sunday
   events:
-    - title: The Practice of Healing&#58; The Arts and Humanities in Health
+    - title: The Practice of Healing&#58; The Arts and Humanities in Health (I)
       timings: 9:30am - 10:30am
       speakers:
         - navjeevan
         - harshu
         - satendra
         - aqsa
-        - padmavati
-        - ashlesha
-        - maitri
-        - radha
                  
       description: >-
         Panel discussion. Moderated by Dr Navjeevan Singh. 
@@ -154,11 +151,18 @@
       timings: 10:30am - 11:00am
         
 
-    - title: The Practice of Healing&#58; The Arts and Humanities in Health
+    - title: The Practice of Healing&#58; The Arts and Humanities in Health (II)
       timings: 11:00am - 1:00pm
+      speakers: 
+        - nithya
+        - padmavati
+        - ashlesha
+        - ruthshee
+        - maitri
+        - radha
         
       description: >-
-        Panel discussion continues. 
+        Panel discussion. Moderated by Dr Nithya Poornima. 
         
     - title: Lunch
       timings: 1:00pm - 2:00pm
